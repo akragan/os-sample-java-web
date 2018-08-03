@@ -1,3 +1,7 @@
+<%
+    response.setHeader("Cache-Control", "no-store");
+    response.setDateHeader("Expires", 0);
+%>
 <html>
 <body>
 <h2>Hello World from Adam with OpenShift!</h2>
